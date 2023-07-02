@@ -11,10 +11,10 @@ const BlogDetails = () => {
     data: blog,
     isLoading,
     error,
-  } = useFetch("http://localhost:8000/blogs/" + id);
+  } = useFetch("https://blog-data-g0y9.onrender.com/blogs/" + id);
 
   const handleDelete = () =>{
-    fetch('http://localhost:8000/blogs/'+ blog.id,{
+    fetch('https://blog-data-g0y9.onrender.com/blogs/'+ blog.id,{
       method : "DELETE",
     }).then(()=>{
       history('/');

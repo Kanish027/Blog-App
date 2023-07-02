@@ -17,7 +17,7 @@ const NewBlog = () => {
 
         setIsPending(true);
 
-        fetch('http://localhost:8000/blogs',{
+        fetch('https://blog-data-g0y9.onrender.com/blogs',{
             method : 'POST',
             headers : {"Content-Type" : "application/json" },
             body : JSON.stringify(blog)

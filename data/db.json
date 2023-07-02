@@ -1,3 +1,10 @@
 {
-  "blogs": []
+  "blogs": [
+    {
+      "title": "Money In The Bank Night",
+      "body": "Who will be mr money in the bank",
+      "author": "Kanish Mohariya",
+      "id": 1
+    }
+  ]
 }

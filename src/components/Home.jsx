@@ -3,7 +3,7 @@ import useFetch from './useFetch';
 
 const Home = () => {
   
-const {data:blogs, isLoading, error} = useFetch("http://localhost:8000/blogs");
+const {data:blogs, isLoading, error} = useFetch("https://blog-data-g0y9.onrender.com/blogs");
 
   return (
     <div className='home'>
